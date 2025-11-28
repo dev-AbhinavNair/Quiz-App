@@ -1,12 +1,12 @@
 
 const questions = [
     {
-        question: "What came first? Chicken or Egg?",
+        question: "Is this project using JavaScript?",
         answers: [
-            { text: "Chicken", correct: true},
-            { text: "Egg", correct: false},
-            { text: "Chicken Jockey!!!", correct: false},
-            { text: "I am STEVE!!", correct: false},
+            { text: "Yes", correct: true},
+            { text: "no", correct: false},
+            { text: "I dont know", correct: false},
+            { text: "Maybe?", correct: false},
         ]
     },
 
@@ -21,22 +21,22 @@ const questions = [
     },
 
     {
-        question: "Does Nafih have a brain?",
+        question: "Is the Earth round?",
         answers: [
             { text: "No", correct: false},
-            { text: "Definatly Not", correct: false},
-            { text: "Absolutely Not", correct: true},
-            { text: "Ugh? Maybe??", correct: false},
+            { text: "It's a square!", correct: false},
+            { text: "Yes", correct: true},
+            { text: "Triangle", correct: false},
         ]
     },
 
     {
-        question: "Nafih does NOT have a brain",
+        question: "Do laptops need electricity?",
         answers: [
-            { text: "True", correct: false},
-            { text: "Definatly True", correct: false},
-            { text: "Absolutely True", correct: false},
-            { text: "Is this even a question?", correct: true},
+            { text: "No", correct: false},
+            { text: "Water", correct: false},
+            { text: "Fire", correct: false},
+            { text: "Yes they need electricity", correct: true},
         ]
     }
 ];
